@@ -1,0 +1,24 @@
+{
+ "updated_at": "2026-11-12T14:53:18.696Z",
+ "runs": [
+  {
+   "run_id": "20261112T143821Z",
+   "generated_at": "2026-11-12T14:53:18.696Z",
+   "list_sha": "65eb2c77eb3be5540be57a2eec0663e0e0e67ce2",
+   "list_committed_at": "2026-11-12T07:21:26Z",
+   "probed": 12234,
+   "ok": 1034,
+   "ok_pct": 8.45,
+   "upstream": "192.168.1.231:7890",
+   "echo": "whatsmyip.125478.xyz",
+   "summary_file": "history/20261112T143821Z.json",
+   "detail_files": [
+    "history/20261112T143821Z-details-01.json",
+    "history/20261112T143821Z-details-02.json",
+    "history/20261112T143821Z-details-03.json",
+    "history/20261112T143821Z-details-04.json",
+    "history/20261112T143821Z-details-05.json"
+   ]
+  }
+ ]
+}
