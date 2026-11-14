@@ -1,0 +1,104 @@
+name: proxy-health
+
+on:
+  schedule:
+    # 每天 06:00 UTC+8 = 前一天 22:00 UTC
+    - cron: '0 22 * * *'
+  workflow_dispatch:
+    inputs:
+      sample:
+        description: '抽样条数（0 = 全量）'
+        required: false
+        default: '0'
+      upstream:
+        description: '前置代理 host:port（留空 = 直连）'
+        required: false
+        default: ''
+      echo_host:
+        description: '回显服务域名'
+        required: false
+        default: 'whatsmyip.125478.xyz'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: proxy-health
+  cancel-in-progress: false
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Show schedule info
+        run: |
+          echo "触发时间(UTC): $(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+          echo "对应 UTC+8:   $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S')"
+
+      - name: Run probe
+        env:
+          SAMPLE: ${{ github.event.inputs.sample || '0' }}
+          UPSTREAM: ${{ github.event.inputs.upstream || '' }}
+          ECHO_HOST: ${{ github.event.inputs.echo_host || 'whatsmyip.125478.xyz' }}
+        run: |
+          set -euo pipefail
+          ARGS=(--sample "${SAMPLE}" --echo "${ECHO_HOST}" --output-dir data)
+          if [ -n "${UPSTREAM}" ]; then
+            ARGS+=(--upstream "${UPSTREAM}")
+          fi
+          echo "python probe.py ${ARGS[*]}"
+          python probe.py "${ARGS[@]}"
+
+      - name: Show result summary
+        run: |
+          python - <<'PY'
+          import json
+          with open('data/latest.json', encoding='utf-8') as f:
+              d = json.load(f)
+          s = d['summary']
+          print(f"run_id      : {d['run_id']}")
+          print(f"list_sha    : {s['meta'].get('list_sha')}")
+          print(f"list_commit : {s['meta'].get('list_committed_at')}")
+          print(f"upstream    : {s['meta'].get('upstream')}")
+          print(f"probed      : {s['totals']['probed']}")
+          print(f"ok          : {s['totals']['ok']} ({s['totals']['ok_pct']}%)")
+          print("by_protocol :")
+          for p, v in s['by_protocol'].items():
+              print(f"  {p:7s} {v['ok']:5d}/{v['total']:5d}  {v['ok_pct']}%")
+          PY
+
+      - name: Commit and push
+        run: |
+          set -euo pipefail
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data
+          if git diff --cached --quiet; then
+            echo "没有变化，跳过提交"
+            exit 0
+          fi
+          RUN_ID=$(python -c "import json;print(json.load(open('data/latest.json'))['run_id'])")
+          OK=$(python -c "import json;print(json.load(open('data/latest.json'))['summary']['totals']['ok'])")
+          PROBED=$(python -c "import json;print(json.load(open('data/latest.json'))['summary']['totals']['probed'])")
+          git commit -m "data: probe ${RUN_ID} (${OK}/${PROBED} ok)"
+          git push
+
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: probe-${{ github.run_id }}
+          path: data/
+          retention-days: 30
