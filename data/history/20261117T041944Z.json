@@ -1,0 +1,2592 @@
+{
+ "run_id": "20261117T041944Z",
+ "generated_at": "2026-11-17T04:32:05.801Z",
+ "summary": {
+  "meta": {
+   "fetched_at": "2026-11-17T04:19:44.393Z",
+   "sha": "7d959df8c72d647d4d8ccb025ed1d14b95f94aad",
+   "committed_at": "2026-11-16T23:16:29Z",
+   "url": "https://raw.githubusercontent.com/proxifly/free-proxy-list/7d959df8c72d647d4d8ccb025ed1d14b95f94aad/proxies/all/data.json",
+   "bytes": 3096290,
+   "sha256": "11237d40670d06a38176f19cae36c96ac6d346985165663474eabea0b144c0f2",
+   "sampled": 0,
+   "seed": null,
+   "entry_geo_known": 10182,
+   "run_id": "20261117T041944Z",
+   "started_at": "2026-11-17T04:19:44.392Z",
+   "finished_at": "2026-11-17T04:32:05.655Z",
+   "upstream": "direct",
+   "echo_host": "whatsmyip.125478.xyz",
+   "echo_port": 80,
+   "concurrency": 120,
+   "list_sha": "7d959df8c72d647d4d8ccb025ed1d14b95f94aad",
+   "list_committed_at": "2026-11-16T23:16:29Z"
+  },
+  "list": {
+   "raw_entries": 11685,
+   "unique_entries": 11685,
+   "duplicates_removed": 0,
+   "unique_ips": 10182,
+   "by_protocol": {
+    "socks5": 5437,
+    "socks4": 384,
+    "https": 895,
+    "http": 4969
+   },
+   "by_declared_country": {
+    "US": 2557,
+    "RU": 1085,
+    "ID": 902,
+    "CN": 464,
+    "VN": 455,
+    "DE": 425,
+    "GB": 310,
+    "ZZ": 302,
+    "IN": 268,
+    "NL": 265,
+    "TH": 228,
+    "HK": 223,
+    "BR": 215,
+    "SG": 206,
+    "FR": 191,
+    "BD": 188,
+    "PH": 184,
+    "CA": 181,
+    "CO": 149,
+    "IR": 139,
+    "JP": 137,
+    "MX": 131,
+    "PK": 124,
+    "AR": 113,
+    "UA": 109,
+    "TR": 102,
+    "KR": 100,
+    "RO": 94,
+    "FI": 88,
+    "PL": 76,
+    "KH": 75,
+    "ES": 64,
+    "LV": 63,
+    "VE": 62,
+    "EC": 61,
+    "SE": 60,
+    "IT": 55,
+    "PE": 52,
+    "CL": 49,
+    "TW": 48,
+    "ZA": 45,
+    "CZ": 45,
+    "IE": 44,
+    "AU": 42,
+    "MY": 40,
+    "EG": 39,
+    "AE": 37,
+    "BG": 36,
+    "DO": 35,
+    "KE": 33,
+    "LU": 31,
+    "AM": 30,
+    "HU": 29,
+    "NP": 28,
+    "CH": 27,
+    "SY": 26,
+    "ZW": 24,
+    "IQ": 23,
+    "KZ": 21,
+    "PY": 20,
+    "LY": 20,
+    "AT": 18,
+    "IL": 18,
+    "DK": 17,
+    "LT": 15,
+    "GR": 15,
+    "AL": 14,
+    "RS": 14,
+    "LB": 13,
+    "BE": 12,
+    "GE": 12,
+    "GT": 11,
+    "NG": 11,
+    "HN": 11,
+    "SC": 10,
+    "SI": 9,
+    "PS": 9,
+    "UZ": 9,
+    "EE": 9,
+    "TZ": 8,
+    "AZ": 8,
+    "SK": 7,
+    "MN": 7,
+    "PR": 7,
+    "AF": 7,
+    "YE": 7,
+    "MD": 7,
+    "GH": 6,
+    "CR": 6,
+    "PT": 5,
+    "NZ": 5,
+    "CD": 5,
+    "PA": 5,
+    "BO": 5,
+    "BI": 4,
+    "SA": 4,
+    "CM": 4,
+    "SN": 4,
+    "YT": 4,
+    "MA": 4,
+    "ME": 3,
+    "BW": 3,
+    "UG": 3,
+    "HR": 3,
+    "VG": 3,
+    "KG": 3,
+    "BY": 3,
+    "MU": 3,
+    "LA": 3,
+    "UY": 2,
+    "TT": 2,
+    "SV": 2,
+    "GP": 2,
+    "MW": 2,
+    "BA": 2,
+    "NO": 2,
+    "TG": 1,
+    "CG": 1,
+    "OM": 1,
+    "CU": 1,
+    "ZM": 1,
+    "LS": 1,
+    "MZ": 1,
+    "MO": 1,
+    "MM": 1,
+    "GI": 1,
+    "IS": 1,
+    "BH": 1,
+    "XK": 1,
+    "LK": 1,
+    "MC": 1,
+    "BJ": 1,
+    "RW": 1,
+    "GN": 1,
+    "BB": 1,
+    "PG": 1,
+    "GA": 1,
+    "GQ": 1,
+    "QA": 1
+   }
+  },
+  "totals": {
+   "probed": 11685,
+   "ok": 1419,
+   "failed": 10266,
+   "ok_pct": 12.14
+  },
+  "by_protocol": {
+   "http": {
+    "total": 4969,
+    "ok": 602,
+    "ok_pct": 12.12
+   },
+   "https": {
+    "total": 895,
+    "ok": 456,
+    "ok_pct": 50.95
+   },
+   "socks4": {
+    "total": 384,
+    "ok": 80,
+    "ok_pct": 20.83
+   },
+   "socks5": {
+    "total": 5437,
+    "ok": 281,
+    "ok_pct": 5.17
+   }
+  },
+  "by_entry_country": {
+   "US": {
+    "total": 2100,
+    "ok": 362,
+    "ok_pct": 17.24
+   },
+   "ID": {
+    "total": 1145,
+    "ok": 197,
+    "ok_pct": 17.21
+   },
+   "RU": {
+    "total": 1051,
+    "ok": 67,
+    "ok_pct": 6.37
+   },
+   "DE": {
+    "total": 534,
+    "ok": 51,
+    "ok_pct": 9.55
+   },
+   "VN": {
+    "total": 471,
+    "ok": 19,
+    "ok_pct": 4.03
+   },
+   "CN": {
+    "total": 454,
+    "ok": 19,
+    "ok_pct": 4.19
+   },
+   "NL": {
+    "total": 409,
+    "ok": 41,
+    "ok_pct": 10.02
+   },
+   "CA": {
+    "total": 331,
+    "ok": 7,
+    "ok_pct": 2.11
+   },
+   "HK": {
+    "total": 303,
+    "ok": 21,
+    "ok_pct": 6.93
+   },
+   "IN": {
+    "total": 300,
+    "ok": 26,
+    "ok_pct": 8.67
+   },
+   "FR": {
+    "total": 247,
+    "ok": 31,
+    "ok_pct": 12.55
+   },
+   "TH": {
+    "total": 230,
+    "ok": 33,
+    "ok_pct": 14.35
+   },
+   "SG": {
+    "total": 217,
+    "ok": 22,
+    "ok_pct": 10.14
+   },
+   "GB": {
+    "total": 216,
+    "ok": 14,
+    "ok_pct": 6.48
+   },
+   "TR": {
+    "total": 205,
+    "ok": 30,
+    "ok_pct": 14.63
+   },
+   "PH": {
+    "total": 203,
+    "ok": 34,
+    "ok_pct": 16.75
+   },
+   "CO": {
+    "total": 188,
+    "ok": 20,
+    "ok_pct": 10.64
+   },
+   "BD": {
+    "total": 184,
+    "ok": 21,
+    "ok_pct": 11.41
+   },
+   "MX": {
+    "total": 179,
+    "ok": 31,
+    "ok_pct": 17.32
+   },
+   "JP": {
+    "total": 155,
+    "ok": 14,
+    "ok_pct": 9.03
+   },
+   "BR": {
+    "total": 142,
+    "ok": 25,
+    "ok_pct": 17.61
+   },
+   "FI": {
+    "total": 138,
+    "ok": 9,
+    "ok_pct": 6.52
+   },
+   "KR": {
+    "total": 120,
+    "ok": 12,
+    "ok_pct": 10.0
+   },
+   "PK": {
+    "total": 116,
+    "ok": 19,
+    "ok_pct": 16.38
+   },
+   "SE": {
+    "total": 95,
+    "ok": 5,
+    "ok_pct": 5.26
+   },
+   "AR": {
+    "total": 94,
+    "ok": 15,
+    "ok_pct": 15.96
+   },
+   "UA": {
+    "total": 91,
+    "ok": 8,
+    "ok_pct": 8.79
+   },
+   "KH": {
+    "total": 80,
+    "ok": 15,
+    "ok_pct": 18.75
+   },
+   "PL": {
+    "total": 77,
+    "ok": 3,
+    "ok_pct": 3.9
+   },
+   "EC": {
+    "total": 76,
+    "ok": 19,
+    "ok_pct": 25.0
+   },
+   "VE": {
+    "total": 75,
+    "ok": 13,
+    "ok_pct": 17.33
+   },
+   "IR": {
+    "total": 73,
+    "ok": 8,
+    "ok_pct": 10.96
+   },
+   "RO": {
+    "total": 71,
+    "ok": 39,
+    "ok_pct": 54.93
+   },
+   "LV": {
+    "total": 63,
+    "ok": 31,
+    "ok_pct": 49.21
+   },
+   "DO": {
+    "total": 58,
+    "ok": 8,
+    "ok_pct": 13.79
+   },
+   "PE": {
+    "total": 58,
+    "ok": 4,
+    "ok_pct": 6.9
+   },
+   "TW": {
+    "total": 50,
+    "ok": 2,
+    "ok_pct": 4.0
+   },
+   "SY": {
+    "total": 49,
+    "ok": 11,
+    "ok_pct": 22.45
+   },
+   "IT": {
+    "total": 47,
+    "ok": 4,
+    "ok_pct": 8.51
+   },
+   "CL": {
+    "total": 45,
+    "ok": 6,
+    "ok_pct": 13.33
+   },
+   "ZA": {
+    "total": 45,
+    "ok": 9,
+    "ok_pct": 20.0
+   },
+   "CZ": {
+    "total": 43,
+    "ok": 5,
+    "ok_pct": 11.63
+   },
+   "MY": {
+    "total": 40,
+    "ok": 1,
+    "ok_pct": 2.5
+   },
+   "LT": {
+    "total": 39,
+    "ok": 25,
+    "ok_pct": 64.1
+   },
+   "EG": {
+    "total": 39,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "KE": {
+    "total": 36,
+    "ok": 5,
+    "ok_pct": 13.89
+   },
+   "ES": {
+    "total": 35,
+    "ok": 3,
+    "ok_pct": 8.57
+   },
+   "AE": {
+    "total": 31,
+    "ok": 1,
+    "ok_pct": 3.23
+   },
+   "KZ": {
+    "total": 31,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "CH": {
+    "total": 30,
+    "ok": 1,
+    "ok_pct": 3.33
+   },
+   "NP": {
+    "total": 28,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "AU": {
+    "total": 27,
+    "ok": 4,
+    "ok_pct": 14.81
+   },
+   "BG": {
+    "total": 27,
+    "ok": 1,
+    "ok_pct": 3.7
+   },
+   "PY": {
+    "total": 24,
+    "ok": 2,
+    "ok_pct": 8.33
+   },
+   "ZW": {
+    "total": 24,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "BZ": {
+    "total": 24,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "AT": {
+    "total": 22,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "IQ": {
+    "total": 21,
+    "ok": 3,
+    "ok_pct": 14.29
+   },
+   "LY": {
+    "total": 20,
+    "ok": 5,
+    "ok_pct": 25.0
+   },
+   "AL": {
+    "total": 16,
+    "ok": 4,
+    "ok_pct": 25.0
+   },
+   "IL": {
+    "total": 15,
+    "ok": 1,
+    "ok_pct": 6.67
+   },
+   "GR": {
+    "total": 15,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "HU": {
+    "total": 15,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "HN": {
+    "total": 14,
+    "ok": 1,
+    "ok_pct": 7.14
+   },
+   "GT": {
+    "total": 13,
+    "ok": 2,
+    "ok_pct": 15.38
+   },
+   "EE": {
+    "total": 12,
+    "ok": 1,
+    "ok_pct": 8.33
+   },
+   "UZ": {
+    "total": 11,
+    "ok": 1,
+    "ok_pct": 9.09
+   },
+   "GE": {
+    "total": 10,
+    "ok": 2,
+    "ok_pct": 20.0
+   },
+   "RS": {
+    "total": 10,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "AM": {
+    "total": 10,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "NG": {
+    "total": 9,
+    "ok": 2,
+    "ok_pct": 22.22
+   },
+   "MD": {
+    "total": 9,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "AF": {
+    "total": 8,
+    "ok": 3,
+    "ok_pct": 37.5
+   },
+   "PR": {
+    "total": 8,
+    "ok": 2,
+    "ok_pct": 25.0
+   },
+   "TZ": {
+    "total": 8,
+    "ok": 1,
+    "ok_pct": 12.5
+   },
+   "DK": {
+    "total": 8,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "CR": {
+    "total": 8,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "SA": {
+    "total": 7,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "SK": {
+    "total": 7,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "AZ": {
+    "total": 6,
+    "ok": 2,
+    "ok_pct": 33.33
+   },
+   "GH": {
+    "total": 6,
+    "ok": 1,
+    "ok_pct": 16.67
+   },
+   "PT": {
+    "total": 6,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "YE": {
+    "total": 6,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "IE": {
+    "total": 5,
+    "ok": 1,
+    "ok_pct": 20.0
+   },
+   "CM": {
+    "total": 5,
+    "ok": 3,
+    "ok_pct": 60.0
+   },
+   "CD": {
+    "total": 5,
+    "ok": 3,
+    "ok_pct": 60.0
+   },
+   "NZ": {
+    "total": 5,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "PS": {
+    "total": 5,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "BO": {
+    "total": 5,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "MA": {
+    "total": 5,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "SI": {
+    "total": 4,
+    "ok": 1,
+    "ok_pct": 25.0
+   },
+   "BI": {
+    "total": 4,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "SN": {
+    "total": 4,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "YT": {
+    "total": 4,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "BY": {
+    "total": 3,
+    "ok": 1,
+    "ok_pct": 33.33
+   },
+   "LB": {
+    "total": 3,
+    "ok": 2,
+    "ok_pct": 66.67
+   },
+   "ME": {
+    "total": 3,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "BW": {
+    "total": 3,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "UG": {
+    "total": 3,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "BE": {
+    "total": 3,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "PA": {
+    "total": 3,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "NE": {
+    "total": 3,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "NO": {
+    "total": 3,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "KG": {
+    "total": 3,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "LA": {
+    "total": 3,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "TT": {
+    "total": 2,
+    "ok": 1,
+    "ok_pct": 50.0
+   },
+   "OM": {
+    "total": 2,
+    "ok": 1,
+    "ok_pct": 50.0
+   },
+   "UY": {
+    "total": 2,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "CW": {
+    "total": 2,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "MN": {
+    "total": 2,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "MZ": {
+    "total": 2,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "MG": {
+    "total": 2,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "MW": {
+    "total": 2,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "CY": {
+    "total": 2,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "BA": {
+    "total": 2,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "SV": {
+    "total": 2,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "BJ": {
+    "total": 1,
+    "ok": 1,
+    "ok_pct": 100.0
+   },
+   "GQ": {
+    "total": 1,
+    "ok": 1,
+    "ok_pct": 100.0
+   },
+   "TG": {
+    "total": 1,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "LU": {
+    "total": 1,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "CG": {
+    "total": 1,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "CU": {
+    "total": 1,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "ZM": {
+    "total": 1,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "LS": {
+    "total": 1,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "MM": {
+    "total": 1,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "HR": {
+    "total": 1,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "RW": {
+    "total": 1,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "GN": {
+    "total": 1,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "NA": {
+    "total": 1,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "PG": {
+    "total": 1,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "GA": {
+    "total": 1,
+    "ok": 0,
+    "ok_pct": 0.0
+   },
+   "QA": {
+    "total": 1,
+    "ok": 0,
+    "ok_pct": 0.0
+   }
+  },
+  "exit_country": {
+   "US": 359,
+   "ID": 198,
+   "RU": 57,
+   "DE": 50,
+   "NL": 42,
+   "RO": 39,
+   "T1": 36,
+   "PH": 34,
+   "TH": 33,
+   "LV": 31,
+   "FR": 30,
+   "MX": 30,
+   "TR": 27,
+   "LT": 25,
+   "IN": 25,
+   "HK": 24,
+   "BR": 24,
+   "SG": 21,
+   "BD": 21,
+   "CO": 20,
+   "VN": 19,
+   "EC": 19,
+   "PK": 19,
+   "SY": 18,
+   "KH": 15,
+   "AR": 15,
+   "JP": 13,
+   "VE": 13,
+   "GB": 12,
+   "CN": 12,
+   "KR": 10,
+   "FI": 8,
+   "DO": 8,
+   "IR": 7,
+   "CL": 6,
+   "UA": 6,
+   "ZA": 6,
+   "LY": 5,
+   "KE": 5,
+   "PL": 4,
+   "IT": 4,
+   "AU": 4,
+   "PE": 4,
+   "CZ": 3,
+   "ES": 3,
+   "TW": 3,
+   "IQ": 3,
+   "CM": 3,
+   "AF": 3,
+   "CD": 3,
+   "AL": 3,
+   "CA": 2,
+   "IL": 2,
+   "NG": 2,
+   "PY": 2,
+   "SE": 2,
+   "GE": 2,
+   "LB": 2,
+   "AZ": 2,
+   "GT": 2,
+   "PR": 2,
+   "IE": 1,
+   "CH": 1,
+   "TT": 1,
+   "OM": 1,
+   "EE": 1,
+   "MY": 1,
+   "HN": 1,
+   "UZ": 1,
+   "BJ": 1,
+   "BY": 1,
+   "BG": 1,
+   "GH": 1,
+   "AE": 1,
+   "GQ": 1,
+   "SI": 1,
+   "TZ": 1,
+   "BE": 1
+  },
+  "latency_ms": {
+   "min": 144,
+   "p50": 2209,
+   "p90": 7892,
+   "p99": 15511,
+   "max": 33416,
+   "buckets": {
+    "lt_1s": 498,
+    "1s_2s": 183,
+    "2s_5s": 335,
+    "5s_10s": 335,
+    "gte_10s": 68
+   }
+  },
+  "anomalies": {
+   "tor_exit": {
+    "count": 37,
+    "nodes": [
+     {
+      "ip": "18.224.94.46",
+      "port": 45536,
+      "protocol": "https",
+      "exit_ip": "192.42.116.94",
+      "exit_isp": "SURF B.V."
+     },
+     {
+      "ip": "45.142.141.5",
+      "port": 8443,
+      "protocol": "https",
+      "exit_ip": "192.42.116.115",
+      "exit_isp": "SURF B.V."
+     },
+     {
+      "ip": "40.177.104.199",
+      "port": 30577,
+      "protocol": "http",
+      "exit_ip": "192.42.116.117",
+      "exit_isp": "SURF B.V."
+     },
+     {
+      "ip": "78.14.19.3",
+      "port": 45441,
+      "protocol": "https",
+      "exit_ip": "192.42.116.142",
+      "exit_isp": "SURF B.V."
+     },
+     {
+      "ip": "45.61.129.165",
+      "port": 9050,
+      "protocol": "socks5",
+      "exit_ip": "185.220.101.1",
+      "exit_isp": "Artikel10 e.V."
+     },
+     {
+      "ip": "15.152.38.117",
+      "port": 21492,
+      "protocol": "http",
+      "exit_ip": "192.42.116.96",
+      "exit_isp": "SURF B.V."
+     },
+     {
+      "ip": "18.191.250.90",
+      "port": 58119,
+      "protocol": "http",
+      "exit_ip": "192.42.116.109",
+      "exit_isp": "SURF B.V."
+     },
+     {
+      "ip": "98.94.14.234",
+      "port": 8181,
+      "protocol": "http",
+      "exit_ip": "192.42.116.99",
+      "exit_isp": "SURF B.V."
+     },
+     {
+      "ip": "54.198.140.56",
+      "port": 8049,
+      "protocol": "http",
+      "exit_ip": "192.42.116.144",
+      "exit_isp": "SURF B.V."
+     },
+     {
+      "ip": "16.28.29.244",
+      "port": 44311,
+      "protocol": "http",
+      "exit_ip": "171.25.193.78",
+      "exit_isp": "Foreningen for digitala fri- och rattigheter"
+     },
+     {
+      "ip": "3.21.247.154",
+      "port": 36194,
+      "protocol": "https",
+      "exit_ip": "185.220.100.241",
+      "exit_isp": "Network for Tor-Exit traffic."
+     },
+     {
+      "ip": "3.96.141.200",
+      "port": 18006,
+      "protocol": "https",
+      "exit_ip": "185.220.100.246",
+      "exit_isp": "Network for Tor-Exit traffic."
+     },
+     {
+      "ip": "18.61.230.250",
+      "port": 33158,
+      "protocol": "https",
+      "exit_ip": "192.42.116.50",
+      "exit_isp": "SURF B.V."
+     },
+     {
+      "ip": "18.170.45.5",
+      "port": 21005,
+      "protocol": "http",
+      "exit_ip": "192.42.116.53",
+      "exit_isp": "SURF B.V."
+     },
+     {
+      "ip": "143.198.239.45",
+      "port": 10030,
+      "protocol": "socks4",
+      "exit_ip": "192.42.116.92",
+      "exit_isp": "SURF B.V."
+     },
+     {
+      "ip": "18.166.56.240",
+      "port": 45454,
+      "protocol": "https",
+      "exit_ip": "185.220.101.61",
+      "exit_isp": "Network for Tor-Exit traffic."
+     },
+     {
+      "ip": "35.78.212.217",
+      "port": 26376,
+      "protocol": "https",
+      "exit_ip": "185.220.101.158",
+      "exit_isp": "CIA TRIAD SECURITY LLC"
+     },
+     {
+      "ip": "3.134.245.77",
+      "port": 57240,
+      "protocol": "http",
+      "exit_ip": "171.25.193.235",
+      "exit_isp": "Foreningen for digitala fri- och rattigheter"
+     },
+     {
+      "ip": "13.215.184.250",
+      "port": 59881,
+      "protocol": "https",
+      "exit_ip": "192.42.116.12",
+      "exit_isp": "SURF B.V."
+     },
+     {
+      "ip": "143.198.239.45",
+      "port": 10027,
+      "protocol": "socks4",
+      "exit_ip": "185.243.218.225",
+      "exit_isp": "Gigahost AS"
+     },
+     {
+      "ip": "16.26.208.68",
+      "port": 56194,
+      "protocol": "http",
+      "exit_ip": "203.55.81.1",
+      "exit_isp": "MOJI SAS"
+     },
+     {
+      "ip": "16.52.81.236",
+      "port": 11453,
+      "protocol": "http",
+      "exit_ip": "192.42.116.42",
+      "exit_isp": "SURF B.V."
+     },
+     {
+      "ip": "34.220.80.147",
+      "port": 34889,
+      "protocol": "http",
+      "exit_ip": "152.53.150.12",
+      "exit_isp": "Anexia Holding GmbH"
+     },
+     {
+      "ip": "18.222.231.188",
+      "port": 27161,
+      "protocol": "http",
+      "exit_ip": "192.42.116.92",
+      "exit_isp": "SURF B.V."
+     },
+     {
+      "ip": "34.229.190.39",
+      "port": 4091,
+      "protocol": "http",
+      "exit_ip": "23.129.64.168",
+      "exit_isp": "Emerald Onion"
+     },
+     {
+      "ip": "45.61.129.165",
+      "port": 9050,
+      "protocol": "socks4",
+      "exit_ip": "192.42.116.46",
+      "exit_isp": "SURF B.V."
+     },
+     {
+      "ip": "98.81.204.137",
+      "port": 9459,
+      "protocol": "http",
+      "exit_ip": "185.220.100.243",
+      "exit_isp": "Network for Tor-Exit traffic."
+     },
+     {
+      "ip": "95.31.115.101",
+      "port": 9150,
+      "protocol": "socks4",
+      "exit_ip": "185.220.101.27",
+      "exit_isp": "Artikel10 e.V."
+     },
+     {
+      "ip": "13.245.183.150",
+      "port": 19129,
+      "protocol": "https",
+      "exit_ip": "192.42.116.111",
+      "exit_isp": "SURF B.V."
+     },
+     {
+      "ip": "18.231.214.206",
+      "port": 8397,
+      "protocol": "https",
+      "exit_ip": "192.42.116.47",
+      "exit_isp": "SURF B.V."
+     },
+     {
+      "ip": "95.31.115.101",
+      "port": 9150,
+      "protocol": "socks5",
+      "exit_ip": "185.220.101.27",
+      "exit_isp": "Artikel10 e.V."
+     },
+     {
+      "ip": "148.224.14.251",
+      "port": 999,
+      "protocol": "http",
+      "exit_ip": "148.224.14.253",
+      "exit_isp": "Jorge Luis Torres Fernandez"
+     },
+     {
+      "ip": "86.110.194.159",
+      "port": 1080,
+      "protocol": "socks5",
+      "exit_ip": "192.42.116.111",
+      "exit_isp": "SURF B.V."
+     },
+     {
+      "ip": "185.194.188.137",
+      "port": 9108,
+      "protocol": "socks4",
+      "exit_ip": "190.103.179.5",
+      "exit_isp": "IPXON Networks Mexico - Ciudad de Mexico"
+     },
+     {
+      "ip": "43.108.46.245",
+      "port": 9050,
+      "protocol": "socks5",
+      "exit_ip": "185.220.100.243",
+      "exit_isp": "Network for Tor-Exit traffic."
+     },
+     {
+      "ip": "143.20.185.219",
+      "port": 9150,
+      "protocol": "socks5",
+      "exit_ip": "5.255.101.10",
+      "exit_isp": "The Infrastructure Group B.V."
+     },
+     {
+      "ip": "77.95.201.16",
+      "port": 9150,
+      "protocol": "socks5",
+      "exit_ip": "23.129.64.208",
+      "exit_isp": "Emerald Onion"
+     }
+    ]
+   },
+   "ipv6_exit": {
+    "count": 39,
+    "nodes": [
+     {
+      "ip": "172.64.69.89",
+      "port": 443,
+      "exit_ip": "2606:4700:3030::",
+      "exit_cc": "US"
+     },
+     {
+      "ip": "172.64.68.89",
+      "port": 443,
+      "exit_ip": "2606:4700:3030::",
+      "exit_cc": "US"
+     },
+     {
+      "ip": "54.36.150.233",
+      "port": 3128,
+      "exit_ip": "2001:41d0:1008:2cae::",
+      "exit_cc": "FR"
+     },
+     {
+      "ip": "45.61.188.134",
+      "port": 44499,
+      "exit_ip": "2605:6404:18a:faa9:b28c:7bf3:1f12:b847",
+      "exit_cc": "US"
+     },
+     {
+      "ip": "37.16.74.237",
+      "port": 8443,
+      "exit_ip": "2a0b:64c0:1::53",
+      "exit_cc": "NL"
+     },
+     {
+      "ip": "130.17.13.234",
+      "port": 8443,
+      "exit_ip": "2a02:6b40:2000:3416::1",
+      "exit_cc": "DE"
+     },
+     {
+      "ip": "45.150.164.23",
+      "port": 8443,
+      "exit_ip": "2604:9cc0:1c23::c",
+      "exit_cc": "US"
+     },
+     {
+      "ip": "65.109.196.122",
+      "port": 2080,
+      "exit_ip": "2a09:bac5:31cf:2db9::48e:76",
+      "exit_cc": "FI"
+     },
+     {
+      "ip": "45.150.164.14",
+      "port": 8443,
+      "exit_ip": "2604:9cc0:1c23::c",
+      "exit_cc": "US"
+     },
+     {
+      "ip": "46.224.17.220",
+      "port": 8443,
+      "exit_ip": "2a01:4f8:1c1b:5ca4::1",
+      "exit_cc": "DE"
+     },
+     {
+      "ip": "116.202.172.99",
+      "port": 443,
+      "exit_ip": "2a01:4f8:241:b5c::2",
+      "exit_cc": "DE"
+     },
+     {
+      "ip": "82.66.235.221",
+      "port": 443,
+      "exit_ip": "2a01:e0a:1018:8c90:be24:11ff:fe98:e8b1",
+      "exit_cc": "FR"
+     },
+     {
+      "ip": "163.5.53.209",
+      "port": 1080,
+      "exit_ip": "2a09:bac5:58c3:d2d::150:6e",
+      "exit_cc": "TR"
+     },
+     {
+      "ip": "14.137.237.91",
+      "port": 443,
+      "exit_ip": "2602:f864:222:a001:be24:11ff:fee4:b90a",
+      "exit_cc": "JP"
+     },
+     {
+      "ip": "45.150.164.38",
+      "port": 8443,
+      "exit_ip": "2604:9cc0:1c23::c",
+      "exit_cc": "US"
+     },
+     {
+      "ip": "159.69.94.125",
+      "port": 443,
+      "exit_ip": "2a01:4f8:1c1a:be82::1",
+      "exit_cc": "DE"
+     },
+     {
+      "ip": "217.92.132.233",
+      "port": 443,
+      "exit_ip": "2003:a:4:e500:215:5dff:fe83:c00b",
+      "exit_cc": "DE"
+     },
+     {
+      "ip": "45.150.164.14",
+      "port": 443,
+      "exit_ip": "2604:9cc0:1c23::c",
+      "exit_cc": "US"
+     },
+     {
+      "ip": "77.221.136.60",
+      "port": 8443,
+      "exit_ip": "2a12:5940:4a2d::2",
+      "exit_cc": "DE"
+     },
+     {
+      "ip": "134.65.17.77",
+      "port": 443,
+      "exit_ip": "2603:c025:4002:687e:24ba:c8e5:8981:f119",
+      "exit_cc": "BR"
+     },
+     {
+      "ip": "46.29.166.134",
+      "port": 1446,
+      "exit_ip": "2a00:b700::5:6b",
+      "exit_cc": "RU"
+     },
+     {
+      "ip": "45.145.73.240",
+      "port": 8443,
+      "exit_ip": "2604:9cc0:1e::b52c:cb88",
+      "exit_cc": "US"
+     },
+     {
+      "ip": "45.145.72.122",
+      "port": 8443,
+      "exit_ip": "2604:9cc0:1c23::c",
+      "exit_cc": "US"
+     },
+     {
+      "ip": "151.242.183.28",
+      "port": 443,
+      "exit_ip": "2403:27c0:c03:1::71",
+      "exit_cc": "HK"
+     },
+     {
+      "ip": "85.232.185.5",
+      "port": 443,
+      "exit_ip": "2403:27c0:c03:1::71",
+      "exit_cc": "HK"
+     },
+     {
+      "ip": "45.150.164.18",
+      "port": 8443,
+      "exit_ip": "2604:9cc0:1c23::c",
+      "exit_cc": "US"
+     },
+     {
+      "ip": "111.192.54.49",
+      "port": 8888,
+      "exit_ip": "2408:8207:6085:ede0:7d3b:42b7:7797:69c1",
+      "exit_cc": "CN"
+     },
+     {
+      "ip": "202.85.53.25",
+      "port": 443,
+      "exit_ip": "2403:27c0:c03:1::71",
+      "exit_cc": "HK"
+     },
+     {
+      "ip": "114.244.223.68",
+      "port": 8888,
+      "exit_ip": "2408:8207:6041:9db0:25a1:201b:357a:bf89",
+      "exit_cc": "CN"
+     },
+     {
+      "ip": "133.18.200.207",
+      "port": 343,
+      "exit_ip": "2406:8c00:0:3408:133:18:200:207",
+      "exit_cc": "JP"
+     },
+     {
+      "ip": "111.192.19.3",
+      "port": 8888,
+      "exit_ip": "2408:8207:6044:bc50:1dd3:83b:972b:5ac3",
+      "exit_cc": "CN"
+     },
+     {
+      "ip": "38.76.140.254",
+      "port": 8443,
+      "exit_ip": "2400:c800:109:20c:9d93:ae5f:3554:8938",
+      "exit_cc": "HK"
+     },
+     {
+      "ip": "38.55.192.122",
+      "port": 443,
+      "exit_ip": "2001:df1:7880:3::40f",
+      "exit_cc": "HK"
+     },
+     {
+      "ip": "104.128.228.69",
+      "port": 8118,
+      "exit_ip": "2602:ffc5:20::2:8740",
+      "exit_cc": "US"
+     },
+     {
+      "ip": "216.152.149.246",
+      "port": 80,
+      "exit_ip": "2604:86c0:3000:1:ff:1ff:fee5:11",
+      "exit_cc": "US"
+     },
+     {
+      "ip": "222.128.176.152",
+      "port": 8888,
+      "exit_ip": "2408:8207:1830:1250:39b8:fbb9:591e:b6a0",
+      "exit_cc": "CN"
+     },
+     {
+      "ip": "152.70.237.238",
+      "port": 3128,
+      "exit_ip": "2a09:bac1:3f20::20b:f9",
+      "exit_cc": "KR"
+     },
+     {
+      "ip": "77.37.44.179",
+      "port": 3128,
+      "exit_ip": "2a02:4780:12:4dee::1",
+      "exit_cc": "IN"
+     },
+     {
+      "ip": "85.121.50.25",
+      "port": 1080,
+      "exit_ip": "2a06:a880:3:2ead::1",
+      "exit_cc": "JP"
+     }
+    ]
+   },
+   "exit_ne_entry": {
+    "count": 420
+   },
+   "exit_country_ne_entry": {
+    "count": 88,
+    "nodes": [
+     {
+      "ip": "172.64.69.89",
+      "port": 443,
+      "entry_cc": "CA",
+      "exit_cc": "US"
+     },
+     {
+      "ip": "172.64.68.89",
+      "port": 443,
+      "entry_cc": "CA",
+      "exit_cc": "US"
+     },
+     {
+      "ip": "18.224.94.46",
+      "port": 45536,
+      "entry_cc": "US",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "203.25.108.77",
+      "port": 443,
+      "entry_cc": "CZ",
+      "exit_cc": "NL"
+     },
+     {
+      "ip": "91.92.250.33",
+      "port": 443,
+      "entry_cc": "AL",
+      "exit_cc": "PL"
+     },
+     {
+      "ip": "37.9.4.101",
+      "port": 1088,
+      "entry_cc": "RU",
+      "exit_cc": "NL"
+     },
+     {
+      "ip": "45.142.141.5",
+      "port": 8443,
+      "entry_cc": "SE",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "40.177.104.199",
+      "port": 30577,
+      "entry_cc": "CA",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "77.221.136.60",
+      "port": 8443,
+      "entry_cc": "SE",
+      "exit_cc": "DE"
+     },
+     {
+      "ip": "85.209.157.181",
+      "port": 8443,
+      "entry_cc": "US",
+      "exit_cc": "IL"
+     },
+     {
+      "ip": "78.14.19.3",
+      "port": 45441,
+      "entry_cc": "MX",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "151.242.183.28",
+      "port": 443,
+      "entry_cc": "CN",
+      "exit_cc": "HK"
+     },
+     {
+      "ip": "31.77.158.162",
+      "port": 443,
+      "entry_cc": "SE",
+      "exit_cc": "FI"
+     },
+     {
+      "ip": "45.61.129.165",
+      "port": 9050,
+      "entry_cc": "US",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "85.232.185.5",
+      "port": 443,
+      "entry_cc": "CN",
+      "exit_cc": "HK"
+     },
+     {
+      "ip": "47.243.181.85",
+      "port": 42532,
+      "entry_cc": "HK",
+      "exit_cc": "TW"
+     },
+     {
+      "ip": "14.128.54.6",
+      "port": 8443,
+      "entry_cc": "KR",
+      "exit_cc": "HK"
+     },
+     {
+      "ip": "222.71.205.37",
+      "port": 1083,
+      "entry_cc": "CN",
+      "exit_cc": "SG"
+     },
+     {
+      "ip": "120.232.204.58",
+      "port": 31343,
+      "entry_cc": "CN",
+      "exit_cc": "HK"
+     },
+     {
+      "ip": "45.74.31.41",
+      "port": 6533,
+      "entry_cc": "NL",
+      "exit_cc": "US"
+     },
+     {
+      "ip": "15.152.38.117",
+      "port": 21492,
+      "entry_cc": "JP",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "107.189.27.1",
+      "port": 443,
+      "entry_cc": "NL",
+      "exit_cc": "HK"
+     },
+     {
+      "ip": "203.25.108.72",
+      "port": 443,
+      "entry_cc": "CZ",
+      "exit_cc": "NL"
+     },
+     {
+      "ip": "18.191.250.90",
+      "port": 58119,
+      "entry_cc": "US",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "95.216.45.44",
+      "port": 10815,
+      "entry_cc": "FI",
+      "exit_cc": "FR"
+     },
+     {
+      "ip": "94.183.162.84",
+      "port": 443,
+      "entry_cc": "IR",
+      "exit_cc": "DE"
+     },
+     {
+      "ip": "98.94.14.234",
+      "port": 8181,
+      "entry_cc": "US",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "193.218.118.128",
+      "port": 1080,
+      "entry_cc": "UA",
+      "exit_cc": "US"
+     },
+     {
+      "ip": "54.198.140.56",
+      "port": 8049,
+      "entry_cc": "US",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "16.28.29.244",
+      "port": 44311,
+      "entry_cc": "ZA",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "120.232.204.58",
+      "port": 39010,
+      "entry_cc": "CN",
+      "exit_cc": "AU"
+     },
+     {
+      "ip": "3.21.247.154",
+      "port": 36194,
+      "entry_cc": "US",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "3.96.141.200",
+      "port": 18006,
+      "entry_cc": "CA",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "18.61.230.250",
+      "port": 33158,
+      "entry_cc": "IN",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "18.170.45.5",
+      "port": 21005,
+      "entry_cc": "GB",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "143.198.239.45",
+      "port": 10030,
+      "entry_cc": "US",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "45.74.31.42",
+      "port": 4413,
+      "entry_cc": "NL",
+      "exit_cc": "US"
+     },
+     {
+      "ip": "18.166.56.240",
+      "port": 45454,
+      "entry_cc": "HK",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "188.226.27.24",
+      "port": 1080,
+      "entry_cc": "RU",
+      "exit_cc": "NL"
+     },
+     {
+      "ip": "116.204.166.202",
+      "port": 8080,
+      "entry_cc": "TR",
+      "exit_cc": "SY"
+     },
+     {
+      "ip": "35.78.212.217",
+      "port": 26376,
+      "entry_cc": "JP",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "3.134.245.77",
+      "port": 57240,
+      "entry_cc": "US",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "80.65.211.149",
+      "port": 8888,
+      "entry_cc": "FR",
+      "exit_cc": "US"
+     },
+     {
+      "ip": "13.215.184.250",
+      "port": 59881,
+      "entry_cc": "SG",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "143.198.239.45",
+      "port": 10027,
+      "entry_cc": "US",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "16.26.208.68",
+      "port": 56194,
+      "entry_cc": "AU",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "91.107.186.23",
+      "port": 8081,
+      "entry_cc": "DE",
+      "exit_cc": "US"
+     },
+     {
+      "ip": "191.44.71.163",
+      "port": 8080,
+      "entry_cc": "NL",
+      "exit_cc": "TR"
+     },
+     {
+      "ip": "2.28.105.45",
+      "port": 8888,
+      "entry_cc": "DE",
+      "exit_cc": "US"
+     },
+     {
+      "ip": "16.52.81.236",
+      "port": 11453,
+      "entry_cc": "CA",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "34.220.80.147",
+      "port": 34889,
+      "entry_cc": "US",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "45.130.127.14",
+      "port": 3128,
+      "entry_cc": "US",
+      "exit_cc": "FI"
+     },
+     {
+      "ip": "18.222.231.188",
+      "port": 27161,
+      "entry_cc": "US",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "82.202.156.180",
+      "port": 443,
+      "entry_cc": "RU",
+      "exit_cc": "FI"
+     },
+     {
+      "ip": "191.44.71.208",
+      "port": 8080,
+      "entry_cc": "NL",
+      "exit_cc": "SY"
+     },
+     {
+      "ip": "188.226.27.24",
+      "port": 1080,
+      "entry_cc": "RU",
+      "exit_cc": "NL"
+     },
+     {
+      "ip": "34.229.190.39",
+      "port": 4091,
+      "entry_cc": "US",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "45.61.129.165",
+      "port": 9050,
+      "entry_cc": "US",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "98.81.204.137",
+      "port": 9459,
+      "entry_cc": "US",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "95.31.115.101",
+      "port": 9150,
+      "entry_cc": "RU",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "109.224.242.251",
+      "port": 8080,
+      "entry_cc": "TR",
+      "exit_cc": "SY"
+     },
+     {
+      "ip": "13.245.183.150",
+      "port": 19129,
+      "entry_cc": "ZA",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "18.231.214.206",
+      "port": 8397,
+      "entry_cc": "BR",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "45.74.31.46",
+      "port": 4342,
+      "entry_cc": "NL",
+      "exit_cc": "US"
+     },
+     {
+      "ip": "188.132.150.240",
+      "port": 8080,
+      "entry_cc": "TR",
+      "exit_cc": "SY"
+     },
+     {
+      "ip": "95.31.115.101",
+      "port": 9150,
+      "entry_cc": "RU",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "118.184.140.90",
+      "port": 58764,
+      "entry_cc": "CN",
+      "exit_cc": "US"
+     },
+     {
+      "ip": "213.87.10.138",
+      "port": 10808,
+      "entry_cc": "RU",
+      "exit_cc": "NL"
+     },
+     {
+      "ip": "201.4.65.190",
+      "port": 8080,
+      "entry_cc": "TR",
+      "exit_cc": "SY"
+     },
+     {
+      "ip": "31.57.178.195",
+      "port": 8080,
+      "entry_cc": "SG",
+      "exit_cc": "ID"
+     },
+     {
+      "ip": "180.172.72.200",
+      "port": 1081,
+      "entry_cc": "CN",
+      "exit_cc": "JP"
+     },
+     {
+      "ip": "193.33.157.118",
+      "port": 8080,
+      "entry_cc": "SY",
+      "exit_cc": "TR"
+     },
+     {
+      "ip": "45.74.31.46",
+      "port": 4691,
+      "entry_cc": "NL",
+      "exit_cc": "US"
+     },
+     {
+      "ip": "84.201.169.209",
+      "port": 1080,
+      "entry_cc": "RU",
+      "exit_cc": "NL"
+     },
+     {
+      "ip": "91.208.42.2",
+      "port": 10809,
+      "entry_cc": "RU",
+      "exit_cc": "NL"
+     },
+     {
+      "ip": "191.44.91.23",
+      "port": 8080,
+      "entry_cc": "FR",
+      "exit_cc": "SY"
+     },
+     {
+      "ip": "86.110.194.159",
+      "port": 1080,
+      "entry_cc": "RU",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "188.132.221.186",
+      "port": 8080,
+      "entry_cc": "TR",
+      "exit_cc": "SY"
+     },
+     {
+      "ip": "65.21.252.66",
+      "port": 10814,
+      "entry_cc": "FI",
+      "exit_cc": "US"
+     },
+     {
+      "ip": "185.194.188.137",
+      "port": 9108,
+      "entry_cc": "UA",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "95.38.170.222",
+      "port": 1082,
+      "entry_cc": "IR",
+      "exit_cc": "BE"
+     },
+     {
+      "ip": "65.109.103.250",
+      "port": 10808,
+      "entry_cc": "FI",
+      "exit_cc": "SY"
+     },
+     {
+      "ip": "5.63.158.21",
+      "port": 3128,
+      "entry_cc": "GB",
+      "exit_cc": "RU"
+     },
+     {
+      "ip": "195.211.71.150",
+      "port": 1081,
+      "entry_cc": "DE",
+      "exit_cc": "IR"
+     },
+     {
+      "ip": "43.108.46.245",
+      "port": 9050,
+      "entry_cc": "KR",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "65.21.252.66",
+      "port": 10811,
+      "entry_cc": "FI",
+      "exit_cc": "US"
+     },
+     {
+      "ip": "143.20.185.219",
+      "port": 9150,
+      "entry_cc": "ZA",
+      "exit_cc": "T1"
+     },
+     {
+      "ip": "77.95.201.16",
+      "port": 9150,
+      "entry_cc": "RU",
+      "exit_cc": "T1"
+     }
+    ]
+   },
+   "exit_ne_declared": {
+    "count": 304
+   },
+   "shared_exits": [
+    {
+     "exit_ip": "198.200.57.153",
+     "entries": 33,
+     "exit_cc": "US",
+     "exit_city": "San Jose",
+     "entry_ips": [
+      "137.175.77.35",
+      "198.200.57.153",
+      "198.200.57.154",
+      "198.200.57.155",
+      "198.200.57.156",
+      "38.28.185.130",
+      "38.28.185.134",
+      "38.28.185.139",
+      "38.28.185.142",
+      "38.28.185.143",
+      "38.28.185.144",
+      "38.28.185.148",
+      "38.28.185.152",
+      "38.28.185.153",
+      "38.28.185.157",
+      "38.28.185.163",
+      "38.28.185.166",
+      "38.28.185.178",
+      "38.28.185.180",
+      "38.28.185.187"
+     ]
+    },
+    {
+     "exit_ip": "198.2.214.3",
+     "entries": 24,
+     "exit_cc": "US",
+     "exit_city": "San Jose",
+     "entry_ips": [
+      "137.175.22.116",
+      "137.175.22.120",
+      "137.175.22.16",
+      "137.175.22.29",
+      "137.175.22.3",
+      "137.175.22.40",
+      "137.175.22.41",
+      "137.175.22.44",
+      "137.175.22.45",
+      "137.175.22.46",
+      "137.175.22.49",
+      "137.175.22.52",
+      "137.175.22.56",
+      "137.175.22.65",
+      "137.175.22.72",
+      "137.175.22.74",
+      "137.175.22.84",
+      "137.175.22.85",
+      "137.175.22.87",
+      "137.175.22.88"
+     ]
+    },
+    {
+     "exit_ip": "38.28.193.1",
+     "entries": 14,
+     "exit_cc": "US",
+     "exit_city": "San Jose",
+     "entry_ips": [
+      "38.28.193.1",
+      "38.28.193.122",
+      "38.28.193.129",
+      "38.28.193.178",
+      "38.28.193.188",
+      "38.28.193.191",
+      "38.28.193.215",
+      "38.28.193.39",
+      "38.28.193.42",
+      "38.28.193.47",
+      "38.28.193.6",
+      "38.28.193.71",
+      "38.28.193.83",
+      "38.28.193.84"
+     ]
+    },
+    {
+     "exit_ip": "142.249.37.30",
+     "entries": 10,
+     "exit_cc": "US",
+     "exit_city": "Los Angeles",
+     "entry_ips": [
+      "142.0.133.176",
+      "142.0.133.177",
+      "142.0.133.178",
+      "142.0.139.113",
+      "142.0.139.114",
+      "142.0.139.117",
+      "142.0.139.120",
+      "142.0.139.121",
+      "142.0.139.123",
+      "142.0.139.124"
+     ]
+    },
+    {
+     "exit_ip": "2604:9cc0:1c23::c",
+     "entries": 6,
+     "exit_cc": "US",
+     "exit_city": "Seattle",
+     "entry_ips": [
+      "45.145.72.122",
+      "45.150.164.14",
+      "45.150.164.18",
+      "45.150.164.23",
+      "45.150.164.38"
+     ]
+    },
+    {
+     "exit_ip": "162.215.175.52",
+     "entries": 4,
+     "exit_cc": "US",
+     "exit_city": "Phoenix",
+     "entry_ips": [
+      "45.74.31.41",
+      "45.74.31.42",
+      "45.74.31.46"
+     ]
+    },
+    {
+     "exit_ip": "49.50.143.106",
+     "entries": 3,
+     "exit_cc": "KR",
+     "exit_city": "Seoul",
+     "entry_ips": [
+      "211.188.50.146",
+      "211.188.55.218",
+      "211.188.60.84"
+     ]
+    },
+    {
+     "exit_ip": "116.101.73.161",
+     "entries": 3,
+     "exit_cc": "VN",
+     "exit_city": "Thanh Hóa",
+     "entry_ips": [
+      "116.101.73.161",
+      "116.101.73.52"
+     ]
+    },
+    {
+     "exit_ip": "157.180.98.232",
+     "entries": 3,
+     "exit_cc": "FI",
+     "exit_city": "Helsinki",
+     "entry_ips": [
+      "157.180.98.223",
+      "157.180.98.225",
+      "157.180.98.233"
+     ]
+    },
+    {
+     "exit_ip": "2403:27c0:c03:1::71",
+     "entries": 3,
+     "exit_cc": "HK",
+     "exit_city": "Hong Kong",
+     "entry_ips": [
+      "151.242.183.28",
+      "202.85.53.25",
+      "85.232.185.5"
+     ]
+    },
+    {
+     "exit_ip": "84.234.98.120",
+     "entries": 3,
+     "exit_cc": "RO",
+     "exit_city": "Giurgiu",
+     "entry_ips": [
+      "84.234.96.164",
+      "84.234.96.165",
+      "84.234.96.28"
+     ]
+    },
+    {
+     "exit_ip": "177.234.217.83",
+     "entries": 3,
+     "exit_cc": "EC",
+     "exit_city": "Quito",
+     "entry_ips": [
+      "177.234.217.82",
+      "177.234.217.84",
+      "177.234.217.85"
+     ]
+    },
+    {
+     "exit_ip": "44.208.49.225",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Ashburn",
+     "entry_ips": [
+      "18.206.28.143",
+      "44.217.145.28"
+     ]
+    },
+    {
+     "exit_ip": "2606:4700:3030::",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "San Francisco",
+     "entry_ips": [
+      "172.64.68.89",
+      "172.64.69.89"
+     ]
+    },
+    {
+     "exit_ip": "216.105.143.146",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Mauldin",
+     "entry_ips": [
+      "216.105.143.146"
+     ]
+    },
+    {
+     "exit_ip": "216.105.130.131",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Simpsonville",
+     "entry_ips": [
+      "216.105.130.131"
+     ]
+    },
+    {
+     "exit_ip": "199.66.183.226",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Forest Park",
+     "entry_ips": [
+      "199.66.183.226"
+     ]
+    },
+    {
+     "exit_ip": "199.66.183.251",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Forest Park",
+     "entry_ips": [
+      "199.66.183.251"
+     ]
+    },
+    {
+     "exit_ip": "199.66.182.243",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Forest Park",
+     "entry_ips": [
+      "199.66.182.243"
+     ]
+    },
+    {
+     "exit_ip": "199.66.182.232",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Forest Park",
+     "entry_ips": [
+      "199.66.182.232"
+     ]
+    },
+    {
+     "exit_ip": "72.207.33.64",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "San Diego",
+     "entry_ips": [
+      "72.207.33.64"
+     ]
+    },
+    {
+     "exit_ip": "70.166.167.38",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Peoria",
+     "entry_ips": [
+      "70.166.167.38"
+     ]
+    },
+    {
+     "exit_ip": "184.181.217.210",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Goodyear",
+     "entry_ips": [
+      "184.181.217.210"
+     ]
+    },
+    {
+     "exit_ip": "98.175.31.195",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Norfolk",
+     "entry_ips": [
+      "98.175.31.195"
+     ]
+    },
+    {
+     "exit_ip": "174.77.111.196",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Atlanta",
+     "entry_ips": [
+      "174.77.111.196"
+     ]
+    },
+    {
+     "exit_ip": "184.181.217.194",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Goodyear",
+     "entry_ips": [
+      "184.181.217.194"
+     ]
+    },
+    {
+     "exit_ip": "101.79.27.2",
+     "entries": 2,
+     "exit_cc": "KR",
+     "exit_city": "Seoul",
+     "entry_ips": [
+      "211.188.53.248",
+      "211.188.59.191"
+     ]
+    },
+    {
+     "exit_ip": "98.181.137.83",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Las Vegas",
+     "entry_ips": [
+      "98.181.137.83"
+     ]
+    },
+    {
+     "exit_ip": "184.182.240.12",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Goodyear",
+     "entry_ips": [
+      "184.182.240.12"
+     ]
+    },
+    {
+     "exit_ip": "184.178.172.23",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Roanoke",
+     "entry_ips": [
+      "184.178.172.23"
+     ]
+    },
+    {
+     "exit_ip": "68.1.210.163",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Youngsville",
+     "entry_ips": [
+      "68.1.210.163"
+     ]
+    },
+    {
+     "exit_ip": "184.178.172.17",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Roanoke",
+     "entry_ips": [
+      "184.178.172.17"
+     ]
+    },
+    {
+     "exit_ip": "72.195.101.99",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Cumberland",
+     "entry_ips": [
+      "72.195.101.99"
+     ]
+    },
+    {
+     "exit_ip": "184.178.172.3",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Roanoke",
+     "entry_ips": [
+      "184.178.172.3"
+     ]
+    },
+    {
+     "exit_ip": "174.77.111.197",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Atlanta",
+     "entry_ips": [
+      "174.77.111.197"
+     ]
+    },
+    {
+     "exit_ip": "98.188.47.150",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Omaha",
+     "entry_ips": [
+      "98.188.47.150"
+     ]
+    },
+    {
+     "exit_ip": "72.195.34.59",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Cumberland",
+     "entry_ips": [
+      "72.195.34.59"
+     ]
+    },
+    {
+     "exit_ip": "70.166.167.45",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Peoria",
+     "entry_ips": [
+      "184.181.178.33"
+     ]
+    },
+    {
+     "exit_ip": "174.77.111.198",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Atlanta",
+     "entry_ips": [
+      "174.77.111.198"
+     ]
+    },
+    {
+     "exit_ip": "98.170.57.241",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Fort Hunt",
+     "entry_ips": [
+      "98.170.57.241"
+     ]
+    },
+    {
+     "exit_ip": "174.75.211.222",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "San Diego",
+     "entry_ips": [
+      "174.75.211.222"
+     ]
+    },
+    {
+     "exit_ip": "184.178.172.18",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Roanoke",
+     "entry_ips": [
+      "184.178.172.18"
+     ]
+    },
+    {
+     "exit_ip": "184.181.217.220",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Goodyear",
+     "entry_ips": [
+      "184.181.217.220"
+     ]
+    },
+    {
+     "exit_ip": "46.229.243.211",
+     "entries": 2,
+     "exit_cc": "NL",
+     "exit_city": "Amsterdam",
+     "entry_ips": [
+      "46.229.243.211",
+      "86.107.178.104"
+     ]
+    },
+    {
+     "exit_ip": "184.178.172.13",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Roanoke",
+     "entry_ips": [
+      "184.178.172.13"
+     ]
+    },
+    {
+     "exit_ip": "184.178.172.14",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Roanoke",
+     "entry_ips": [
+      "184.178.172.14"
+     ]
+    },
+    {
+     "exit_ip": "174.64.199.82",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Oklahoma City",
+     "entry_ips": [
+      "174.64.199.82"
+     ]
+    },
+    {
+     "exit_ip": "188.166.178.163",
+     "entries": 2,
+     "exit_cc": "SG",
+     "exit_city": "Singapore",
+     "entry_ips": [
+      "188.166.178.163"
+     ]
+    },
+    {
+     "exit_ip": "68.1.210.189",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Youngsville",
+     "entry_ips": [
+      "68.1.210.189"
+     ]
+    },
+    {
+     "exit_ip": "184.178.172.25",
+     "entries": 2,
+     "exit_cc": "US",
+     "exit_city": "Roanoke",
+     "entry_ips": [
+      "184.178.172.25"
+     ]
+    }
+   ]
+  },
+  "entry_network": {
+   "hosting_known": 11685,
+   "hosting_ok": 370,
+   "residential_ok": 1049,
+   "hosting_total": 4437
+  },
+  "failures": {
+   "TimeoutError:timed out": 6783,
+   "ConnectionRefusedError:[Errno 111] Connection refused": 1584,
+   "RuntimeError:handshake-403": 429,
+   "RuntimeError:handshake-400": 329,
+   "ConnectionResetError:[Errno 104] Connection reset by ": 234,
+   "RuntimeError:echo-not-json": 187,
+   "RuntimeError:handshake-no-status": 177,
+   "RuntimeError:http-403": 86,
+   "RuntimeError:socks4-rep91": 64,
+   "RuntimeError:socks5-method0xff": 63,
+   "RuntimeError:handshake-502": 55,
+   "EOFError:closed": 54,
+   "RuntimeError:handshake-500": 32,
+   "RuntimeError:http-None": 29,
+   "RuntimeError:socks5-rep1": 24,
+   "RuntimeError:handshake-503": 22,
+   "RuntimeError:socks5-rep5": 19,
+   "RuntimeError:socks5-rep4": 13,
+   "RuntimeError:handshake-307": 13,
+   "RuntimeError:handshake-405": 11,
+   "RuntimeError:handshake-407": 9,
+   "RuntimeError:socks5-auth-required": 9,
+   "RuntimeError:socks5-rep2": 9,
+   "SSLError:[SSL: SSLV3_ALERT_HANDSHAKE_FAIL": 8,
+   "TimeoutError:The read operation timed out": 3,
+   "RuntimeError:socks5-ver60": 3,
+   "RuntimeError:http-400": 2,
+   "TimeoutError:_ssl.c:1001: The handshake opera": 2,
+   "RuntimeError:handshake-404": 2,
+   "RuntimeError:socks5-rep3": 2,
+   "RuntimeError:socks5-ver72": 2,
+   "RuntimeError:handshake-302": 1,
+   "RuntimeError:handshake-301": 1,
+   "RuntimeError:socks5-rep9": 1,
+   "RuntimeError:socks5-ver212": 1,
+   "RuntimeError:http-401": 1,
+   "RuntimeError:http-302": 1,
+   "RuntimeError:handshake-308": 1
+  }
+ },
+ "detail_files": [
+  "history/20261117T041944Z-details-01.json",
+  "history/20261117T041944Z-details-02.json",
+  "history/20261117T041944Z-details-03.json",
+  "history/20261117T041944Z-details-04.json"
+ ]
+}
