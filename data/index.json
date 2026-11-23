@@ -185,6 +185,25 @@
     "history/20261122T015443Z-details-04.json",
     "history/20261122T015443Z-details-05.json"
    ]
+  },
+  {
+   "run_id": "20261123T021505Z",
+   "generated_at": "2026-11-23T02:28:24.719Z",
+   "list_sha": "6c172d86e19360dd1747cc5d8a8cc3347214413f",
+   "list_committed_at": "2026-11-23T01:08:36Z",
+   "probed": 12252,
+   "ok": 1535,
+   "ok_pct": 12.53,
+   "upstream": "direct",
+   "echo": "whatsmyip.125478.xyz",
+   "summary_file": "history/20261123T021505Z.json",
+   "detail_files": [
+    "history/20261123T021505Z-details-01.json",
+    "history/20261123T021505Z-details-02.json",
+    "history/20261123T021505Z-details-03.json",
+    "history/20261123T021505Z-details-04.json",
+    "history/20261123T021505Z-details-05.json"
+   ]
   }
  ]
 }
